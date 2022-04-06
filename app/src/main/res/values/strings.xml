@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZitaDB</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="customer">Customers</string>
+    <string name="trainees">Trainees</string>
+    <string name="depository">Depositore</string>
+    <string name="projectName">Project Name</string>
+</resources>

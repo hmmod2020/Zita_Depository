@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".debository_screen">
+
+
+
+
+
+<LinearLayout
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="@drawable/fram_tool_bar"
+        android:layout_weight="0.9">
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    android:layout_weight="0.4">
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/backDepo"
+        android:background="@drawable/blank"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_height="match_parent"
+        android:layout_weight="1.8">
+
+    </ImageButton>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4">
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.2">
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Depository"
+    android:textStyle="bold"
+    android:textColor="@color/btn_login"
+    android:textSize="35sp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+</TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2.4"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+
+        </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+        android:layout_weight="1.9">
+          <EditText
+              android:id="@+id/search_project"
+              android:imeOptions="actionSearch"
+              android:drawableEnd="@drawable/ic_group_71"
+              android:layout_marginLeft="12dp"
+              android:paddingEnd="3dp"
+              android:inputType="textPersonName"
+              android:paddingStart="10dp"
+              android:layout_marginRight="12dp"
+              android:background="@drawable/input_u_p"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+          </EditText>
+
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7.9">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+</LinearLayout>
+</LinearLayout>
+
+
+
+
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        app:fabSize="normal"
+        android:id="@+id/addProject"
+        android:src="@drawable/ic_baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </com.getbase.floatingactionbutton.FloatingActionButton>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

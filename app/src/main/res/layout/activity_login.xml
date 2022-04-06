@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="10"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            tools:ignore="Suspicious0dp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="3"
+                android:layout_width="0dp"
+                android:layout_weight="1.6"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.6">
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.4"
+                    android:src="@drawable/download"
+                    >
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+    android:weightSum="3"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.6"
+        android:weightSum="3"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0">
+
+        </LinearLayout>
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/userNameEditAttripute"
+    android:layout_width="match_parent"
+    android:hint="@string/username"
+    android:textColorHint="@color/text_hint"
+    android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_height="0dp"
+    app:hintTextColor="@color/btn_login"
+    android:layout_weight="1.4">
+    <EditText
+
+        android:paddingLeft="@dimen/hentPanddingLogin"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_hint"
+        android:background="@drawable/input_u_p"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/textsizeLogin"
+        android:paddingRight="@dimen/hentPanddingLogin"
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </EditText>
+</com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:hint="@string/password"
+            android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_height="0dp"
+            app:hintTextColor="@color/btn_login"
+            android:textColorHint="@color/text_hint"
+            android:id="@+id/PasswordEditAttripute"
+            android:layout_weight="1.4">
+            <EditText
+
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:inputType="textPassword"
+                android:textSize="@dimen/textsizeLogin"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/input_u_p"
+                >
+
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0">
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.3"
+    >
+</LinearLayout>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:weightSum="3"
+                android:layout_height="match_parent"
+                android:layout_weight="2.6">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.4">
+
+                    <Button
+                        android:id="@+id/loginBtn"
+                        android:text="@string/login"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/loginTextButton"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:inputType="text"
+                        android:background="@drawable/btn_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1">
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

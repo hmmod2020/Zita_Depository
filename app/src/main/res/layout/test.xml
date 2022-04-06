@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp"
+    android:layout_height="70dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:background="@drawable/btn_login"
+    >
+ <LinearLayout
+     android:layout_marginTop="15dp"
+     android:layout_width="0dp"
+     android:layout_marginBottom="15dp"
+     android:layout_height="match_parent"
+     android:layout_weight="0.3">
+     <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_width="match_parent"
+         android:id="@+id/image1"
+         android:src="@drawable/pdf"
+         android:layout_height="match_parent">
+
+     </de.hdodenhof.circleimageview.CircleImageView>
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+      <TextView
+          android:text="Ziat DB.pdf"
+          android:id="@+id/FileName"
+          android:textColor="@color/white"
+          android:textSize="22sp"
+          android:textStyle="bold"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+        <ImageButton
+            android:id="@+id/delete_pic20"
+            android:background="@drawable/hide"
+            android:src="@drawable/delete_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ImageButton>
+    </LinearLayout>
+</LinearLayout>
+</com.google.android.material.card.MaterialCardView>

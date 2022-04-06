@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:background="@drawable/hide"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="15dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:elevation="15dp"
+        android:background="@drawable/card_of_cus_selector"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:weightSum="1"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.78">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_height="match_parent"
+                android:layout_weight="0.29">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.10">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.50">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:src="@drawable/pic_customer"
+                        android:layout_height="match_parent">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.15">
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:weightSum="1.2"
+                android:layout_height="match_parent"
+                android:layout_weight="0.71">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.15">
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.21">
+                    <TextView
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name :"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_login"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mohammed albdrie"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+                    <TextView
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email :"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_login"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mstar.hmmod@hotmail.com"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.21">
+                    <TextView
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address :"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_login"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Khartoum,jabra"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.21">
+                    <TextView
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Education level :"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_login"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="postgraduated"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.21">
+                    <TextView
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Course :"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_login"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Java"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/text_hint2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.004">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_weight="0.20">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/butn_edit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_weight="0.8">
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/hide"
+                            android:src="@drawable/ic_baseline_edit_24">
+                        </ImageButton>
+                        <TextView
+                            android:text="Edit"
+                            android:layout_marginStart="15dp"
+                            android:textColor="@color/bink"
+                            android:textSize="18sp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:background="@color/text_hint2"
+                android:layout_height="match_parent"
+                android:layout_weight="0.001">
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/butn_delete2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_weight="0.8">
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3"
+                            android:background="@drawable/hide"
+                            android:src="@drawable/ic_baseline_delete_24">
+                        </ImageButton>
+                        <TextView
+                            android:text="Delete"
+                            android:layout_marginStart="10dp"
+                            android:textColor="@color/bink"
+                            android:textSize="18sp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

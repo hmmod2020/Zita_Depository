@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hentPanddingLogin">10dp</dimen>
+    <dimen name="textsizeLogin">15sp</dimen>
+    <dimen name="loginTextButton">29sp</dimen>
+    <dimen name="textBtnsMainScreen">27sp</dimen>
+    <dimen name="panddingBtnMainScreenPic">15dp</dimen>
+    <dimen name="panddingBtnMainScreenTxt">50dp</dimen>
+    <dimen name="projectNameText">19sp</dimen>
+
+
+</resources>
